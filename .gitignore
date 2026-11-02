@@ -1,0 +1,7 @@
+.env
+credentials.json
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dashboard/dist/
