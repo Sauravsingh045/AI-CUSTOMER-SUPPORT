@@ -10,8 +10,8 @@ class Settings(BaseSettings):
     google_client_secret: str
     google_refresh_token: str
     database_url: str
-    classifier_model: str = "anthropic:claude-haiku-5-5"
-    agent_model: str = "anthropic:claude-sonnet-5-5"
+    classifier_model: str = "openai-chat:gpt-oss-120b"
+    agent_model: str = "openai-chat:gpt-oss-120b"
     poll_interval_seconds: int = 60
     dashboard_username: str = "admin"
     dashboard_password: str = "Sauravsingh45"

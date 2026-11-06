@@ -5,7 +5,8 @@ from app.config import settings
 from app.gmail import Gmail
 from app.pipeline import handle_message
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s %(levelname)s %(name)s %(message)s")
 logger = logging.getLogger("poller")
 
 
