@@ -50,3 +50,5 @@ uv run python -m scripts.seed_knowledge_base
 Seeding upserts by section and title. Re-running it updates matching database
 entries with the Markdown content; it does not delete entries removed from the
 files.
+
+---
